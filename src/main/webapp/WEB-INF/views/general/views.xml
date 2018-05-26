@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<definition extends="standardlayout" name="general/search">
+		<put-attribute name="content" value="/WEB-INF/views/general/search.jsp" />
+	</definition>
+	
+	<definition extends="standardlayout" name="general/searchlocation">
+		<put-attribute name="content" value="/WEB-INF/views/general/searchlocation.jsp" />
+	</definition>
+	
+	<definition extends="standardlayout" name="general/searchresult">
+		<put-attribute name="content" value="/WEB-INF/views/general/searchresult.jsp" />
+	</definition>
+
+	<definition extends="standardlayout" name="general/resultmap">
+		<put-attribute name="content" value="/WEB-INF/views/general/resultmap.jsp" />
+	</definition>
+
+	<definition extends="standardlayout" name="general/appointment">
+		<put-attribute name="content" value="/WEB-INF/views/general/appointment.jsp" />
+	</definition>
+
+	<definition extends="standardlayout" name="general/pickupconfirmation">
+		<put-attribute name="content" value="/WEB-INF/views/general/pickupconfirmation.jsp" />
+	</definition>
+
+	<definition extends="standardlayout" name="general/allrecap">
+		<put-attribute name="content" value="/WEB-INF/views/general/allrecap.jsp" />
+	</definition>
+
+</tiles-definitions>
